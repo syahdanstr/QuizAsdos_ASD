@@ -35,7 +35,6 @@ main(){
     printf("   |         4. Keluar             |\n");
     printf("   |                               |\n   ");
     for(int a=0;a<33;a++){printf("=");}
-    setColor(1);
     gotoxy(8,4+a);
     printf("==>");
             pil=getch();
