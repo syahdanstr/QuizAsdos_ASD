@@ -24,17 +24,17 @@ main(){
             a--;
             continue;
         }
-    gotoxy(0,2);
+     gotoxy(0,2);
     printf("   ");
-    for(int a=0;a<33;a++){printf("=");}
-    printf("\n   | **          Menu           ** |\n   ");
-    for(int a=0;a<33;a++){printf("=");}
+    printf("=================================");
+    printf("\n   | **     Tugas Quiz ASD      ** |\n   ");
+    printf("=================================");
     printf("\n   |         1. Level 1            |\n");
     printf("   |         2. Level 2            |\n");
     printf("   |         3. Level 3            |\n");
     printf("   |         4. Keluar             |\n");
     printf("   |                               |\n   ");
-    for(int a=0;a<33;a++){printf("=");}
+    printf("=================================");
     gotoxy(8,4+a);
     printf("==>");
             pil=getch();
