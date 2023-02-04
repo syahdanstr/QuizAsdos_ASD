@@ -29,7 +29,6 @@ main(){
     for(int a=0;a<33;a++){printf("=");}
     printf("\n   | **          Menu           ** |\n   ");
     for(int a=0;a<33;a++){printf("=");}
-    //printf("\n   |                               |\n");
     printf("\n   |         1. Level 1            |\n");
     printf("   |         2. Level 2            |\n");
     printf("   |         3. Level 3            |\n");
@@ -38,7 +37,7 @@ main(){
     for(int a=0;a<33;a++){printf("=");}
     setColor(1);
     gotoxy(8,4+a);
-    printf("==>"); //gotoxy(28,5+y);printf("<<");
+    printf("==>");
             pil=getch();
             switch(pil){
             case 72:
@@ -90,29 +89,29 @@ main(){
         temp=isi;
         temp2=isi;
     for (batas=1;batas<=isi;batas++){
-        //SEGITIGA KIRI ATAS/
+        //Segitiga Kiri atas
         for (spasi1=isi;spasi1>=batas;spasi1--)
             printf("%s"," ");
             for (segitiga1=1;segitiga1<=batas;segitiga1++)
                 printf("%d",segitiga1);
-        //SEGITIGA KANAN ATAS/
+                         //Segitiga Kanan atas
                 for (segitiga2=batas-1;segitiga2>=1;segitiga2--)
                     printf("%d",segitiga2);
                     printf("\n");
     }
-        //TENGAH/
+                    //Tengah
     for(bataskiri=1;bataskiri<=bilangan;bataskiri++)
         printf("%d",bataskiri);
             for(tengah=bilangan-1;tengah>=1;tengah--)
                 printf("%d",tengah);
                     printf("\n");
     for (batas=1;batas<=isi;batas++){
-        //SEGITIGA KIRI BAWAH/
+        //Segitiga Kiri Bawah
     for (spasi2=1;spasi2<=batas;spasi2++)
         printf("%s"," ");
             for (segitiga3=1;segitiga3<=temp;segitiga3++)
                 printf("%d",segitiga3);temp=temp-1;
-        //SEGITIGA KANAN BAWAH/
+                //Segitiga Kanan Bawah
     for (segitiga4=temp2-1;segitiga4>=1;segitiga4--)
         printf("%d",segitiga4);temp2=temp2-1;
             printf("\n");
